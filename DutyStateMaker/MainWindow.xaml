@@ -1,0 +1,30 @@
+﻿<Window x:Class="DutyStateMaker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DutyStateMaker"
+        mc:Ignorable="d"
+        Title="Duty State Maker" Height="473" Width="800">
+    <Grid Background="#FF2F2A2A" Margin="0,0,0,-6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="Output" HorizontalAlignment="Left" Height="412" Margin="400,0,0,0" TextWrapping="Wrap" Text="Username: ooi2011noob&#xA;Duty: border duties&#xA;https://gyazo.com/59f7ce28e8a06686e5d072d1f1fd0438&#xA;&#xA;Time Started: 06:30 UTC+8&#xA;Tablist Started: https://gyazo.com/e6fea8f7b0f79fa1a4f044b2befad5a9&#xA;&#xA;Time Ended: 07:25 UTC+8&#xA;Tablist Ended: https://gyazo.com/327573334416ad3d9ad4abab1e2e7b11&#xD;&#xA;&#xD;&#xA;Notes: ..." VerticalAlignment="Top" Width="400" Background="#FF2F2F40" Foreground="White" FontSize="18"/>
+        <Button x:Name="Start" Content="Start duty state" HorizontalAlignment="Left" Height="22" Margin="0,412,0,0" VerticalAlignment="Top" Width="200" Click="Start_Click"/>
+        <Button x:Name="End" Content="End duty state" HorizontalAlignment="Left" Height="22" Margin="200,412,0,0" VerticalAlignment="Top" Width="200" Click="End_Click" IsEnabled="False"/>
+        <Button x:Name="Update" Content="Update Settings" HorizontalAlignment="Left" Height="22" Margin="400,412,0,0" VerticalAlignment="Top" Width="200" Click="Update_Click"/>
+        <Button x:Name="Copy" Content="Copy to clipboard" HorizontalAlignment="Left" Height="22" Margin="600,412,0,0" VerticalAlignment="Top" Width="200" Click="Copy_Click"/>
+        <TextBox x:Name="Username" HorizontalAlignment="Left" Height="33" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="224" Background="#FF2F2F40" Foreground="White" FontSize="20"/>
+        <TextBox x:Name="Duties" HorizontalAlignment="Left" Height="33" TextWrapping="Wrap" Text="Duty" VerticalAlignment="Top" Width="224" Background="#FF2F2F40" Foreground="White" FontSize="20" Margin="0,33,0,0"/>
+        <TextBox x:Name="Timezone" HorizontalAlignment="Left" Height="33" TextWrapping="Wrap" Text="Timezone" VerticalAlignment="Top" Width="224" Background="#FF2F2F40" Foreground="White" FontSize="20" Margin="0,66,0,0"/>
+        <TextBox x:Name="Tablist_start" HorizontalAlignment="Left" Height="33" TextWrapping="Wrap" Text="Tablist start screenshot" VerticalAlignment="Top" Width="224" Background="#FF2F2F40" Foreground="White" FontSize="20" Margin="0,107,0,0"/>
+        <TextBox x:Name="proof" HorizontalAlignment="Left" Height="33" TextWrapping="Wrap" Text="Duty proof screenshot" VerticalAlignment="Top" Width="224" Background="#FF2F2F40" Foreground="White" FontSize="20" Margin="0,140,0,0"/>
+        <TextBox x:Name="Notes" HorizontalAlignment="Left" Height="158" TextWrapping="Wrap" Text="Notes" VerticalAlignment="Top" Width="354" Background="#FF2F2F40" Foreground="White" FontSize="20" Margin="0,211,0,0"/>
+        <TextBox x:Name="Tablist_end" HorizontalAlignment="Left" Height="33" TextWrapping="Wrap" Text="Tablist end screenshot" VerticalAlignment="Top" Width="224" Background="#FF2F2F40" Foreground="White" FontSize="20" Margin="0,173,0,0"/>
+        <TextBox x:Name="Time" HorizontalAlignment="Left" Height="33" TextWrapping="Wrap" Text="00:00" VerticalAlignment="Top" Width="112" Background="#FF2F2F40" Foreground="White" FontSize="20" Margin="0,374,0,0" IsEnabled="False"/>
+
+
+    </Grid>
+</Window>

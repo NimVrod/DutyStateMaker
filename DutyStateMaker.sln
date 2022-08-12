@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DutyStateMaker", "DutyStateMaker\DutyStateMaker.csproj", "{52F338A6-DD67-403E-A279-14B8718CD721}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52F338A6-DD67-403E-A279-14B8718CD721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F338A6-DD67-403E-A279-14B8718CD721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F338A6-DD67-403E-A279-14B8718CD721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F338A6-DD67-403E-A279-14B8718CD721}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F6684F7-076D-4C6F-95C6-B7C25021F2A1}
+	EndGlobalSection
+EndGlobal
